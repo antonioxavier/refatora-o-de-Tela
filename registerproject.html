@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title></title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/materialize.css">
+    <link rel="stylesheet" href="./css/auxiliar.css">
+
+    <!-- load libraries -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+    <link href="js/jquery.page.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.page.js" type="text/javascript"></script>
+
+    <!-- load application -->
+    <link href="css/app.css" rel="stylesheet" type="text/css" />
+    <script src="js/app.js" type="text/javascript"></script>
+    <style type="text/css">
+        header,
+        main,
+        footer {
+            padding-left: 250px;
+        }
+
+        @media only screen and (max-width : 992px) {
+
+            header,
+            main,
+            footer {
+                padding-left: 0;
+            }
+        }
+    </style>
+</head>
+
+
+<body style="background-color: #FAFAFA; position: relative;">
+
+
+    <div class="fixed" style="width: 250px; ">
+        <ul class="row">
+            <li><a href=https://www.weworld.it/pt-br/ class="col s1 offset-s1 no-padding"
+                    style="margin-left: 15px;"><i><img class="socialIcons" src="images/icons/www.svg"></i></a></li>
+            <li><a href="https://www.facebook.com/WeWorldOnlus" class="col s1 offset-s1 no-padding"><i><img
+                            class="socialIcons" src="images/icons/facebook.svg"></i></a></li>
+            <li><a href="https://twitter.com/WeWorldOnlus" class="col s1 offset-s1 no-padding"><i><img
+                            class="socialIcons" src="images/icons/twitter.svg"></i></a></li>
+            <li><a href="https://www.instagram.com/weworld.onlus/" class="col s1 offset-s1 no-padding"><i><img
+                            class="socialIcons" src="images/icons/instagram.svg"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCnc8rLAFTVNQ-NWVh_Z3pTw"
+                    class="col s1 offset-s1 no-padding"><i><img class="socialIcons"
+                            src="images/icons/youtube.svg"></i></a></li>
+        </ul>
+    </div>
+
+    <header>
+
+        <nav>
+            <div class="nav-wrapper corbg">
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <!-- TESTE -->
+                    <ul id='dropdown1' class='dropdown-content cor'>
+                        <li><a href="perfil.html">Perfil</a></li>
+                        <li><a href="login.html">Sair</a></li>
+                    </ul>
+                    <!-- TESTE -->
+                    <li><span><i class="material-icons">notifications</i></span></li>
+                    <li><a href="#" class="dropdown-trigger cor white-text" data-target="dropdown1"><i
+                                class="material-icons right ">account_circle</i>Instituto Maria da Penha</a></li>
+                </ul>
+            </div>
+
+            <ul id="slide-out" class="sidenav sidenav-fixed" style="width: 250px;">
+
+                <div class="white center" style=" height: 150px;">
+                    <div class="user-view center" style="padding-left: 60px; margin-left: -10px ;">
+                        <a href="boardSolicitante.html"><img class="logo" src="images/logo1.png"
+                                style="margin-right: 70px;"></a>
+                    </div>
+                </div>
+
+                <li>
+                    <ul class="collapsible">
+                        <li style="background-color: #e0e0e0;  margin-bottom: 70px;">
+                            <div class="collapsible-header cor"><i class="material-icons cor">create_new_folder</i><a
+                                    href="first.html" class="no-padding cor">Solicitar projeto</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header cor"><i class="material-icons cor">access_time</i>Projetos em
+                                andamento</div>
+                            <div class="collapsible-body cor">
+                                <span>
+                                    <ul>
+                                        <li style="background-color: #e0e0e0;"><a class="cor"
+                                                href="boardSolicitante.html">
+                                                <p class="cor" style="margin:  0;">Projeto Mães e Filhos</p>
+                                            </a></li>
+                                        <li><a class="cor" href="boardSolicitante2.html">
+                                                <p class="cor" style="margin:  0;">Projeto escola para todos</p>
+                                            </a></li>
+                                        <li><a class="cor">
+                                                <p class="cor" style="margin:  0;">Projeto Educacional</p>
+                                            </a></li>
+
+                                    </ul>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header cor"><i class="material-icons cor">beenhere</i>Projetos
+                                finalizados</div>
+                            <div class="collapsible-body cor">
+                                <span>
+                                    <ul>
+                                        <li><a class="cor">
+                                                <p class="cor" style="margin:  0;">Ação e atuação</p>
+                                            </a></li>
+                                        <li><a class="cor">
+                                                <p class="cor" style="margin:  0;">Sustentabilidade</p>
+                                            </a></li>
+                                        <li><a class="cor">
+                                                <p class="cor" style="margin:  0;">Projeto mais educação</p>
+                                            </a></li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </li>
+
+
+            </ul>
+        </nav>
+
+    </header>
+    <div class="container">
+        <div class="col s12 m12 l6">
+            <div class="card-panel">
+                <h4 class="cabecalho">Solicite seu Projeto</h4>
+                <div class="row">
+                    <form class="col s12">
+
+                        <div class="input-field col s6">
+                            <input id="nome-projeto" placeholder="" type="text">
+                            <label class="active">
+                                Nome do Projeto</label>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="descrição" placeholder="" type="text">
+                                <label class="active">
+                                    Descrição do Projeto</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="objetivoGeral" placeholder="" type="text">
+                                <label class="active">
+                                    Objetivo Geral</label>
+
+                            </div>
+                        </div>
+
+
+                        <ul class="collapsible z-depth-0 acoordion" ">
+                                        <li>
+                                          <div class=" collapsible-header cor"><i
+                                class="material-icons">flag</i>Indicadores
+                </div>
+                <div class="collapsible-body">
+                    <div class="input-field">
+                        <textarea class="materialize-textarea" id="desatvidade" type="text" class="validate"></textarea>
+                        <label for="desatvidade">Nome</label>
+                    </div>
+                    <div class="input-field">
+                        <textarea class="materialize-textarea" id="fontev" type="text" class="validate"></textarea>
+                        <label for="fontev">Descrição</label>
+                    </div>
+
+                </div>
+                </li>
+                </ul>
+
+
+
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="objetivo-especifico" placeholder="" type="text">
+                        <label class="active">
+                            Objetivo Especifico</label>
+
+                    </div>
+                </div>
+
+                <ul class="collapsible z-depth-0 acoordion">
+                    <li>
+                        <div class="collapsible-header cor"><i class="material-icons">flag</i>Indicadores</div>
+                        <div class="collapsible-body">
+                            <div class="input-field">
+                                <textarea class="materialize-textarea" id="desatvidade" type="text"
+                                    class="validate"></textarea>
+                                <label for="desatvidade">Indicador</label>
+                            </div>
+                            <div class="input-field">
+                                <textarea class="materialize-textarea" id="fontev" type="text"
+                                    class="validate"></textarea>
+                                <label for="fontev">Indicador</label>
+                            </div>
+                            <div class="input-field">
+                                <textarea class="materialize-textarea" id="fontev" type="text"
+                                    class="validate"></textarea>
+                                <label for="fontev">Indicador</label>
+                            </div>
+                            <div class="input-field">
+                                <textarea class="materialize-textarea" id="fontev" type="text"
+                                    class="validate"></textarea>
+                                <label for="fontev">Indicador</label>
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <h5 class="title cor col s8">Preencha os resultados esperados</h5>
+
+        </div>
+
+
+        <ul id="resultados">
+            <li>
+                <div id="resultado" class="card cor " style="margin-bottom: 0; ">
+                    <div class="card-content cor">
+                        <span class="card-title cor">Resultados Esperados</span>
+                        <div class="input-field">
+                            <textarea id="2" type="text" class="validate materialize-textarea"></textarea>
+                            <label for="2">Resultados esperados</label>
+                        </div>
+
+
+
+
+                    </div>
+
+
+                    <ul class="collapsible z-depth-0 acoordion" id="atividades" style="margin: 0;">
+                        <li>
+                            <div class="collapsible-header cor"><i class="material-icons">flag</i>Atividade</div>
+                            <div class="collapsible-body">
+                                <div class="input-field">
+                                    <textarea class="materialize-textarea" id="desatvidade" type="text"
+                                        class="validate"></textarea>
+                                    <label for="desatvidade">Descrição da atividade</label>
+                                </div>
+                                <div class="input-field">
+                                    <textarea class="materialize-textarea" id="fontev" type="text"
+                                        class="validate"></textarea>
+                                    <label for="fontev">Fontes de verificação</label>
+                                </div>
+                                <div class="input-field">
+                                    <textarea class="materialize-textarea" id="cond" type="text"
+                                        class="validate"></textarea>
+                                    <label for="cond">Condições prévias</label>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="row" style="margin-right: 15px;">
+                        <a style="margin-bottom: 15px;  margin-top: 15px; margin-right: 30px;" id="addatividade"
+                            class="btn-floating btn-small waves-effect waves-light cor right"><i
+                                class="material-icons">add</i></a>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="card cor " style="margin-bottom: 0; ">
+                    <div class="card-content cor">
+                        <span class="card-title cor">Resultados Esperados</span>
+                        <div class="input-field">
+                            <textarea id="2" type="text" class="validate materialize-textarea"></textarea>
+                            <label for="2">Resultados esperados</label>
+                        </div>
+
+                    </div>
+                    <ul class="collapsible z-depth-0 acoordion" id="atividades1" style="margin: 0;">
+                        <li>
+                            <div class="collapsible-header cor"><i class="material-icons">flag</i>Atividade</div>
+                            <div class="collapsible-body">
+                                <div class="input-field">
+                                    <textarea class="materialize-textarea" id="desatvidade" type="text"
+                                        class="validate"></textarea>
+                                    <label for="desatvidade">Descrição da atividade</label>
+                                </div>
+                                <div class="input-field">
+                                    <textarea class="materialize-textarea" id="fontev" type="text"
+                                        class="validate"></textarea>
+                                    <label for="fontev">Fontes de verificação</label>
+                                </div>
+                                <div class="input-field">
+                                    <textarea class="materialize-textarea" id="cond" type="text"
+                                        class="validate"></textarea>
+                                    <label for="cond">Condições prévias</label>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="row" style="margin-right: 15px;">
+                        <a style="margin-bottom: 15px;  margin-top: 15px; margin-right: 30px;" id="addatividade1"
+                            class="btn-floating btn-small waves-effect waves-light cor right"><i
+                                class="material-icons">add</i></a>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="card cor " style="margin-bottom: 0; ">
+                    <div class="card-content cor">
+                        <span class="card-title cor">Resultados Esperados</span>
+                        <div class="input-field">
+                            <textarea id="2" type="text" class="validate materialize-textarea"></textarea>
+                            <label for="2">Resultados esperados</label>
+                        </div>
+
+                        <div class="fixedr right">
+                            <a class="btn-floating btn-large cor" id="addresultado">
+                                <i class="large material-icons">add</i>
+                            </a>
+                        </div>
+
+
+
+
+                    </div>
+
+
+                    <ul class="collapsible z-depth-0 acoordion" id="atividades2" style="margin: 0;">
+                        <li>
+                            <div class="collapsible-header cor"><i class="material-icons">flag</i>Atividade</div>
+                            <div class="collapsible-body">
+                                <div class="input-field">
+                                    <textarea class="materialize-textarea" id="desatvidade" type="text"
+                                        class="validate"></textarea>
+                                    <label for="desatvidade">Descrição da atividade</label>
+                                </div>
+                                <div class="input-field">
+                                    <textarea class="materialize-textarea" id="fontev" type="text"
+                                        class="validate"></textarea>
+                                    <label for="fontev">Fontes de verificação</label>
+                                </div>
+                                <div class="input-field">
+                                    <textarea class="materialize-textarea" id="cond" type="text"
+                                        class="validate"></textarea>
+                                    <label for="cond">Condições prévias</label>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="row" style="margin-right: 15px;">
+                        <a style="margin-bottom: 15px;  margin-top: 15px; margin-right: 30px;" id="addatividade2"
+                            class="btn-floating btn-small waves-effect waves-light cor right"><i
+                                class="material-icons">add</i></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <div class="row">
+
+
+            <a class="navigate btn right slidepage" href="cards.html">Próximo</a>
+        </div>
+
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="section"></div>
+
+    </div>
+
+    </div>
+
+
+
+
+
+    <script type="text/javascript" src="js/amcharts.js"></script>
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/pie.js"></script>
+    <script type="text/javascript" src="js/graficos.js"></script>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="./js/materialize.min.js"></script>
+    <script src="js/javascript.js" type="text/javascript"></script>
+    <script>
+        M.AutoInit();
+    </script>
+
+</body>
+
+</html>
